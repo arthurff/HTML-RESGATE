@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Login</title>
+        <style>
+            /* Comentario CSS */
+            .corpo{
+                background: rgb(241, 241, 239); 
+                color: rgb(0, 0, 0) ; 
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .titulo{
+                color: rgb(26, 7, 7) ; 
+                border-bottom: 5px aquamarine ; 
+                width: 50%; 
+                text-align: center ; 
+                margin-left: auto ; 
+                margin-right: auto ; 
+            }
+            
+            .formulario{
+                width:450px; 
+                margin-right: auto ; 
+                margin-left:auto; 
+                border: 4px double rgb(15, 5, 5); 
+                padding: 50px
+            }
+
+            .usuario{
+                font-weight: bold; 
+                display: inline-block; 
+                width: 100px; 
+                padding: 10px;
+            }
+
+            .senha{
+                font-weight: bold; 
+                display: inline-block; 
+                width: 100px; 
+                padding: 10px;
+            }
+            
+            .botao{
+                padding:10px; 
+                font-size: 14px; 
+                border: 2px solid rgb(15, 7, 5); 
+                background: blue(13, 39, 39) ; 
+                color:rgb(10, 2, 2); 
+                font-weight: bold; 
+                width: 70%; 
+                margin-left: auto; 
+                margin-right:auto;
+            }
+        </style>
+    </head>
+    <body class="corpo">
+        <h1 class="titulo">Área RESTRITA</h1>
+        <form name="form_login" action="inicial.html" method="post " class="formulario">
+            <label for="usuario" style="">Usuário:</label>  
+            <input name="usuario" id="usuario" maxlength="45" placeholder="Nome de usuário ou E-mail" class="usuario"> <br>
+            <label for="senha" class="senha">Senha:</label> &nbsp; 
+            <input name="senha" id="senha" type="password" maxlength="10" size="6" placeholder = "Senha"> <br>
+            <button class="botao">ENTRAR</button>
+            <hr>
+        </form>
+    </body>
+</html>

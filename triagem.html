@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Triagem</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <style>
+                /* Comentario CSS */
+                .corpo{
+                    background: rgb(255, 254, 254); 
+                    color: rgb(0, 0, 0) ; 
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+        </style>
+   
+    </head>
+<body class="corpo">
+    <header>
+        <h2>TRIAGEM</h2>
+    </header>
+    <main>
+        <form action="iniciar-ocorrencia.html">
+            <strong>A vítima está acordada?</strong><br>
+            <input type=radio name="acordado" value="sim">Sim 
+            <br>
+            <input type="radio" name="acordado"     
+            value="não">Não 
+            <br>
+            <strong> A vítima bateu a cabeça?</strong><br>
+            <input type="radio" name="cabeca" value="sim">Sim <br>
+            <input type="radio" name="cabeca" value="nao">Não <br>
+
+            <strong>A vítima está respondendo?</strong>
+            
+            <br>
+            <input type="radio" name="respondendo" value="sim">Sim<br>
+            <input type="radio" name="respondendo" value="nao">Não
+            
+            <br>
+            <br>
+            
+            <strong>Á quanto tempo aproximadamente ocorreu o acidente?</strong> <br>
+            <input type="radio" name="tempo" value="10"> até 10 min<br>  
+            <input type="radio" name="tempo" value="20"> até 20 min<br>
+            <input type="radio" name="tempo" value="30+">Mais de 30 mim<br>
+            <input type="radio" name="tempo" value="nao sei">Não faço ideia<br>
+            <br>
+            <hr>
+            <br>
+            <button>Enviar</button>        
+        </form>
+    </main>
+    <footer>
+        <em>&copy; 2019 - Arthur Sistemas</em>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+       <meta charset="utf-8">
+       <title>Cadastro Úsuario</title>
+       <style>
+            /* Comentario CSS */
+            .corpo{
+                background: rgb(250, 235, 235); 
+                color: rgb(22, 11, 11) ; 
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        </style>
+</head>
+    <body class="corpo">
+
+    <h1>Cadastro de clientes</h1>
+    <hr>
+    <hr>
+    <fieldset class="corpo">
+        <form name="form_cadastro_usuario" action="salvar-usuario.html" method="post">
+            <label for="nome">Nome</label> 
+            <input id="nome" name="nome" placeholder="Informe seu nome" required> 
+        
+            <label for="sobrenome">Sobrenome</label> 
+            <input id="sobrenome" name="sobrenome" placeholder="Informe seu sobrenome" required> 
+            <br>
+
+            <label for="email">E-mail</label> 
+            <input id="email" nome="email" placeholder="Informe seu E-mail" type="email" required>
+        
+        <legend><strong>Informações do Úsuario</strong></legend>
+        
+             <label for="nome-usuario">Nome do Úsuario</label> 
+             <input id="nome-usuario" nome="nome-usuario" placeholder="Informe nome de usuario" required> 
+        <br>
+       
+            <label for="senha">Senha</label> 
+            <input id="senha" nome="senha" type="password" maxlength="10" size="13" placeholder="Informe uma senha" required>
+        <br> 
+      
+            <label for=conf-senha>Confirmação de senha</label> 
+            <input nome="conf-senha" id="conf-senha" type="password" maxlength="10" size="13" placeholder="Confirme sua senha" required>
+        
+        <br>
+       
+            <label for="dica-senha">Dica de senha</label> 
+            <input id="dica-senha" nome="dica-senha" size="10" maxlength="8" placeholder="digite uma dica" required><br>
+              
+        </fieldset>
+                
+        <br>
+    <fieldset>
+        <legend><strong>Redes Sociais</strong></legend>
+       
+            <img src="Imagens/Insta.png"><label for=insta><em>Instagram</em></label> <input id=insta nome=insta placeholder="Informe seu Instagram">
+        <br>
+            <img src="Imagens/face.png"><label for="face"><em>Facebook</em></label> <input id=face nome=face placeholder="Informe seu Facebook">
+        <br>
+            <img src="Imagens/linke.png"><label for=linke><em>Linkedin<em></em></label> <input id=linke nome=linke placeholder="Informe seu Linkedin"> 
+        <br>
+        <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend><strong>Contrato</strong></legend>
+            aceita os termos do contrato?
+        <br>
+            <input type="radio" name="contrato">Sim &nbsp; &nbsp;<input type="radio" name="contrato">Não <br>
+        <br>
+            Aceita esse outro contrato?
+            <select name="contrato2">
+                <option></option>
+                <option>Sim</option>
+                <option>Com certeza</option>
+                </select>
+        </fieldset>
+        <button>Salvar</button> <a href="inicial.html"><br>VOLTAR</a> <br>
+        <footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        <em>&copy; 2019 -Arthur Sistemas</em>
+        </footer>
+        </form>
+    </body>
+    </hmtl>
